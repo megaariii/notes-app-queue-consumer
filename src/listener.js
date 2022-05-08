@@ -15,8 +15,6 @@ class Listener {
         targetEmail,
         JSON.stringify(notes)
       );
-
-      console.log(userId);
       console.log(result);
     } catch (error) {
       console.error(error);
